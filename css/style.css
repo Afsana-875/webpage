@@ -1,0 +1,106 @@
+/* all common css start */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.clear{
+clear: both;
+}
+/* all common css end */
+/* header part start */
+#header-part{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 999;
+}
+.logo{
+    width: 270px;
+    float: left;
+    padding-top: 25px;
+}
+.menu{
+    width: 900px;
+    float: left;
+    text-align: right;
+   
+}
+.menu ul li{
+    display: inline-block;
+}
+ .menu ul li a{
+    color: aliceblue;
+    line-height: 120px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+    transition: all linear .4s;
+}
+.menu ul li a:hover{
+    background:rgb(187, 189, 185);
+}
+/* header part end */
+/* banner part start */
+#banner-part{
+    background: url(../image/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 380px 0;
+}
+.banner{
+    text-align: center;
+    
+}
+.banner h3{
+color: aliceblue;
+font-size: 36px;
+font-weight: 500;
+font-family: 'Raleway', sans-serif;
+}
+.banner h1{
+    color: aliceblue;
+    font-size: 52px;
+font-weight: 800;
+font-family: 'Raleway', sans-serif;
+padding-top: 15px;
+padding-bottom: 20px;
+
+}
+.banner p{
+    color: aliceblue; 
+    font-size: 16px;
+font-weight: 300;
+font-family: 'Montserrat', sans-serif;
+padding: 0 286px;
+margin-bottom: 50px;
+line-height: 24px;
+}
+.banner a{
+    color: aliceblue;
+    font-size: 14px;
+font-weight: 800;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+padding: 15px 30px 18px 30px;
+border-bottom: 2px solid rgb(187, 189, 185);
+background: indianred;
+border-radius: 10px;
+}
+/* banner part end */
